@@ -1,0 +1,286 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+html {
+  font-size: 100px;
+}
+.search {
+  width: 100%;
+  height: 0.6rem;
+  display: flex;
+  background-color: #F5F5F5;
+  font-size: 0.14rem;
+}
+.search .search-a {
+  width: 70%;
+  height: 0.4rem;
+  margin: 0.1rem auto;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  background-color: white;
+  overflow: hidden;
+}
+.search .search-a input {
+  margin-top: 0.15rem;
+  padding-left: 0.2rem;
+  width: 75%;
+  border-right: 1px solid black;
+}
+.search .search-a img {
+  height: 0.35rem;
+  float: right;
+}
+nav {
+  width: 100%;
+  height: 0.4rem;
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  padding-left: 0.2rem;
+}
+nav ul li {
+  width: 22%;
+  line-height: 0.4rem;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+nav ul li a {
+  font-size: 0.2rem;
+  font-weight: bold;
+}
+nav ul li img {
+  width: 0.1rem;
+  height: 0.1rem;
+}
+nav ul li .up {
+  position: absolute;
+  top: 15px;
+  left: 66px;
+  display: none;
+}
+nav ul li .down {
+  position: absolute;
+  top: 15px;
+  left: 66px;
+}
+.list {
+  width: 100%;
+  font-size: 0.14rem;
+  background-color: #F5F5F5;
+}
+.list ul {
+  padding: 0 0.2rem;
+}
+.list ul li {
+  display: flex;
+  width: 100%;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid orange;
+}
+.list ul li img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.1rem;
+}
+.list ul li h3 {
+  font-size: 0.16rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.list ul li h6 {
+  margin-top: 0.1rem;
+}
+.list ul li p {
+  line-height: 0.3rem;
+  color: #cccccc;
+  font-size: 0.13rem;
+}
+.list ul li p span {
+  color: orange;
+  font-weight: bold;
+}
+.area {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 100px;
+}
+.area .area-list {
+  width: 100%;
+  height: 3rem;
+  overflow: hidden;
+  background-color: white;
+}
+.area .area-list div {
+  width: 22%;
+  height: 100%;
+  float: left;
+  background-color: #F5F5F5;
+}
+.area .area-list div p {
+  font-size: 0.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0.1rem;
+}
+.area .area-list div p:nth-child(1) {
+  background-color: white;
+  color: orange;
+  line-height: 0.3rem;
+}
+.area .area-list ul {
+  width: 77%;
+  float: left;
+  font-size: 0;
+}
+.area .area-list ul li {
+  width: 50%;
+  height: 0.4rem;
+  line-height: 0.4rem;
+  padding-left: 10%;
+  box-sizing: border-box;
+  float: left;
+}
+.area .area-list ul li a {
+  font-size: 0.16rem;
+}
+.price {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 100px;
+}
+.price div {
+  width: 100%;
+  background-color: white;
+}
+.price div ul {
+  font-size: 0;
+  height: 2.83rem;
+  padding: 0 0.2rem;
+}
+.price div ul li {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  border-bottom: 1px solid darkgray;
+}
+.price div ul li a {
+  font-size: 0.16rem;
+}
+.house-type {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 100px;
+}
+.house-type div {
+  width: 100%;
+  background-color: white;
+}
+.house-type div ul {
+  font-size: 0;
+  height: 3rem;
+  padding: 0 0.2rem;
+}
+.house-type div ul li {
+  height: 0.4rem;
+  line-height: 0.4rem;
+  border-bottom: 1px solid darkgray;
+}
+.house-type div ul li a {
+  float: left;
+  font-size: 0.16rem;
+}
+.house-type div ul li div {
+  width: 0.18rem;
+  height: 0.13rem;
+  border: 1px solid lightgray;
+  float: right;
+  margin: 0.1rem 0.3rem;
+  position: relative;
+}
+.house-type div ul li img {
+  display: none;
+  position: absolute;
+  top: 0;
+}
+.house-type div ul li:last-child {
+  background-color: orange;
+  text-align: center;
+  border-bottom: none;
+}
+.house-type div ul li:last-child a {
+  display: block;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.more {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 100px;
+}
+.more > div {
+  width: 100%;
+  padding: 0 0.2rem;
+  background-color: white;
+}
+.more > div .more-area,
+.more > div .acreage,
+.more > div .tag,
+.more > div .age,
+.more > div .floor {
+  width: 100%;
+}
+.more > div .more-area h3,
+.more > div .acreage h3,
+.more > div .tag h3,
+.more > div .age h3,
+.more > div .floor h3 {
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+}
+.more > div .more-area ul,
+.more > div .acreage ul,
+.more > div .tag ul,
+.more > div .age ul,
+.more > div .floor ul {
+  padding-top: 0.1rem;
+  font-size: 0;
+  overflow: hidden;
+  border-bottom: 1px solid lightgray;
+}
+.more > div .more-area ul li,
+.more > div .acreage ul li,
+.more > div .tag ul li,
+.more > div .age ul li,
+.more > div .floor ul li {
+  float: left;
+  width: 20%;
+  height: 0.3rem;
+  font-size: 0.14rem;
+  text-align: center;
+  line-height: 0.3rem;
+  margin: 0 0.1rem 0.2rem 0;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid lightgray;
+}

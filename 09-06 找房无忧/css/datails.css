@@ -1,0 +1,236 @@
+html,
+body {
+  width: 100%;
+}
+html {
+  font-size: 100px;
+}
+.swiper-slide img {
+  width: 100%;
+  height: 2rem;
+}
+.tittle {
+  padding: 0 0.2rem;
+  position: relative;
+}
+.tittle h2 {
+  margin-top: 0.2rem;
+  font-size: 0.16rem;
+}
+.tittle p {
+  font-size: 0.14rem;
+  line-height: 0.3rem;
+}
+.tittle p:nth-of-type(1) span {
+  color: red;
+  font-weight: bold;
+}
+.tittle p:nth-of-type(2) {
+  font-size: 0.12rem;
+  color: lightgray;
+}
+.tittle p:nth-of-type(3) span {
+  font-size: 0.12rem;
+  color: lightblue;
+  margin-right: 0.2rem;
+}
+.tittle img {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  width: 0.12rem;
+}
+.interval {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #eeeeee;
+}
+.des {
+  width: 100%;
+}
+.des ul {
+  padding-left: 0.2rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.des ul li {
+  float: left;
+  width: 50%;
+  line-height: 0.4rem;
+  font-size: 0.14rem;
+  color: black;
+  border-bottom: 1px solid lightgray;
+}
+.des ul li span {
+  display: inline-block;
+  width: 0.5rem;
+  color: lightgray;
+}
+.des ul li:nth-child(n+11) {
+  width: 100%;
+}
+.des ul li:last-child {
+  text-align: center;
+  border: none;
+}
+.feature {
+  width: 100%;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+}
+.feature h2 {
+  color: orange;
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+  border-bottom: 1px solid lightgray;
+}
+.feature p {
+  color: black;
+  font-size: 0.14rem;
+  line-height: 0.25rem;
+  border-bottom: 1px solid lightgray;
+}
+.feature div {
+  font-size: 0.14rem;
+  color: lightgray;
+  text-align: center;
+  width: 100%;
+  line-height: 0.5rem;
+}
+.type {
+  width: 100%;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+}
+.type > h2 {
+  color: orange;
+  font-size: 0.16rem;
+  line-height: 0.5rem;
+  border-bottom: 1px solid lightgray;
+}
+.type ul li {
+  display: flex;
+  width: 100%;
+  font-size: 0.14rem;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid orange;
+}
+.type ul li h2 {
+  font-size: 0.14rem;
+}
+.type ul li p {
+  line-height: 0.3rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.type ul li p:nth-child(2) span {
+  margin-right: 0.2rem;
+  color: lightblue;
+}
+.type ul li img {
+  margin-right: 0.2rem;
+  width: 1rem;
+}
+.school {
+  width: 100%;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+}
+.school ul li {
+  width: 100%;
+  line-height: 0.4rem;
+  font-size: 0.14rem;
+  color: black;
+  border-bottom: 1px solid lightgray;
+}
+.school ul li span {
+  color: lightgray;
+  width: 1rem;
+}
+.school li:first-child {
+  font-weight: bold;
+}
+.school li:last-child {
+  text-align: center;
+  color: lightgray;
+}
+#container {
+  height: 2rem;
+}
+.location {
+  width: 100%;
+  height: 3rem;
+  padding: 0 0.2rem;
+  box-sizing: border-box;
+}
+.location h2 {
+  font-size: 0.16rem;
+  line-height: 0.4rem;
+  border-bottom: 1px solid lightgray;
+}
+.recommend {
+  width: 100%;
+  padding: 0 0.2rem;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.recommend h2 {
+  font-size: 0.16rem;
+  line-height: 0.4rem;
+  border-bottom: 1px solid lightgray;
+}
+.recommend ul {
+  border-bottom: 1px solid lightgray;
+}
+.recommend ul li {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  font-size: 0.14rem;
+  padding: 0.2rem 0;
+}
+.recommend ul li img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.1rem;
+}
+.recommend ul li h2 {
+  line-height: 0.3rem;
+  border: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.recommend ul li h3 {
+  line-height: 0.3rem;
+}
+.recommend ul li .des {
+  overflow: hidden;
+}
+.recommend ul li .address {
+  float: left;
+}
+.recommend ul li .big {
+  float: right;
+  text-align: right;
+}
+.recommend ul li p {
+  line-height: 0.3rem;
+}
+.recommend ul li .price {
+  color: orange;
+  font-size: 0.12rem;
+  font-weight: bold;
+}
+.recommend ul li .only {
+  color: darkcyan;
+}
+.recommend li:last-child {
+  width: 100%;
+  padding: 0 1rem;
+  line-height: 0.4rem;
+  color: lightgray;
+  text-align: center;
+  font-size: 0.16rem;
+}

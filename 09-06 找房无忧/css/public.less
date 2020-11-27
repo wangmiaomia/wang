@@ -1,0 +1,59 @@
+html,body{
+    width:100%;
+    font-size:100px;
+}
+header{
+    width:100%;
+    height:.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ff8a00;
+    .logo img{
+        width:1rem;
+        height:.35rem;
+        margin-left:.2rem;
+    }
+    .cate img{
+        width:.23rem;
+        height:.34rem;
+        margin-right:.1rem;
+    }
+}
+footer{
+    width:100%;
+    height:1.7rem;
+    font-size: .14rem;
+    background-color:#2f3130 ;
+    .web{
+        width:90%;
+        margin: 0 auto;
+        height:.4rem;
+        line-height: .4rem;
+        border-bottom:1px solid darkgray;
+    }
+    .bottom{
+        height:1.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        &>div{
+            display: flex;
+            // height:50%;
+            width:40%;
+            justify-content: space-between;
+            align-items: center;
+        }
+        p:nth-of-type(5){
+            font-size: .13rem;
+        }
+        p:nth-of-type(6){
+            font-size: .14rem;
+        }
+    }
+    .ip{
+        display: flex;
+        width:25%;
+    }
+}
